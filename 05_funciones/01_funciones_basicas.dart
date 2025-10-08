@@ -35,7 +35,9 @@ int sumarConNombre({
   required int numero1,
   int? numero2,
   required int? numero3,
+  int? numero4 = 40,
 }) {
+  print(numero4);
   return numero1 + (numero2 ?? 0);
 }
 
